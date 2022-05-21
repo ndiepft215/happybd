@@ -1,0 +1,57 @@
+@media (max-width: 1023px) {
+    .wishes {
+        display: none;
+    }
+
+    .tome {
+        width: 100%;
+        padding: 4rem 0.5rem;
+        height: 100vh;
+    }
+
+    .tome-content {
+        padding: 3rem 1.5rem;
+    }
+
+    .app {
+        display: none;
+    }
+
+    body {
+        touch-action: none;
+    }
+}
+
+@media (min-width: 1528px) and (max-width: 1820px) {
+    .title {
+        font-size: 4.5rem;
+    }
+
+    .tome-content {
+        padding: 2rem;
+    }
+}
+
+@media (min-width: 1240px) and (max-width: 1527px) {
+    .title {
+        font-size: 3.5rem;
+    }
+
+    .tome-content {
+        padding: 2rem;
+    }
+
+    .tome {
+        flex: 2;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1239px) {
+    .tome {
+        flex: 3;
+    }
+
+    .title {
+        font-size: 2.4rem;
+    }
+}
